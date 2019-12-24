@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalendarTools</name>
+    </assembly>
+    <members>
+        <member name="M:CalendarTools.WeekdayTools.GetWeekDayFormattedForLanguage(System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            Returns a formatted dictionary of weekdays for each day within the given year and month. The names will be formatted dependent on the given language.
+            </summary>
+            <param name="year">The given year.</param>
+            <param name="month">The given month.</param>
+            <param name="dayFormat">The format of the day, full format or short</param>
+            <param name="languageDefinition">The language in which the weekdays should be returned.</param>
+            <returns>A dictionary with all days within the given month, that are including the named weekdays in the given language.</returns>
+        </member>
+    </members>
+</doc>
